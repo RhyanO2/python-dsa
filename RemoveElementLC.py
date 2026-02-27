@@ -7,13 +7,13 @@
 #Return k
 
 
-def removeElement (nums:list[int],val:int):
-  k=0
+def removeElement(k, nums: list[int], val: int):
+  k = 0
   for i in range(len(nums)):
-    if(nums[i] != val ):
+    if nums[i] != val:
       nums[k] = nums[i]
-      k+=1
+      k += 1
   return k
 
-  
-print(removeElement([2,3,3,2],2))
+
+print(removeElement(2,[3,2,2,3],2))
