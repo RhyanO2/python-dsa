@@ -18,4 +18,4 @@ def wordDEFINITION(word:str):
 
 
 
-wordDEFINITION('Corno')    
+wordDEFINITION('oioi')    
